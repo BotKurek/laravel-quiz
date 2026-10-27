@@ -1,0 +1,17 @@
+.DS_Store
+.idea/
+.vscode/
+
+# Ignorowanie plików środowiskowych i zależności z podkatalogu quiz
+quiz/.env
+quiz/.env.backup
+quiz/.env.production
+quiz/vendor/
+quiz/node_modules/
+quiz/public/build
+quiz/public/hot
+quiz/public/storage
+quiz/storage/*.key
+quiz/storage/logs/*.log
+quiz/.phpunit.result.cache
+quiz/.phpunit.cache
